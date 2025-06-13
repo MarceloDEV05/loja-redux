@@ -14,7 +14,7 @@ export const Header = () => {
     const products = useSelector((state: RootState) => state.cart.products);
 
     return (
-        <header className="flex w-full justify-between top-0 px-8 h-16 bg-gray-900 items-center fixed z-99">
+        <header className="flex w-full justify-around lg:justify-between top-0 px-8 h-16 bg-gray-900 items-center fixed z-99">
             <Link to="/">
                 <h1 className="text-2xl font-bold text-white">
                     Store<strong className="text-purple-700">REDUX</strong>
