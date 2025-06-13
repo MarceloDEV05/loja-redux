@@ -28,7 +28,7 @@ export const Cart = () => {
     }
 
     return (
-        <div className="fixed top-0 right-0 h-full w-full max-w-sm lg:max-w-xl  bg-white shadow-lg z-50 p-4 overflow-auto">
+        <div className="fixed top-0 right-0 h-full w-full max-w-xs lg:max-w-xl  bg-white shadow-lg z-50 p-4 overflow-auto">
             <h1 className="text-center pt-20 font-medium text-2xl">
                 Meu Carrinho
             </h1>
@@ -85,7 +85,7 @@ export const Cart = () => {
                       ))}
 
                       {products.length > 0 && (
-                        <div className="fixed bottom-0 right-0 bg-white flex  items-center justify-between drop-shadow-2xl w-full max-w-sm lg:max-w-xl px-6 py-6 mt-20">
+                        <div className="fixed bottom-0 right-0 bg-white flex  items-center justify-between drop-shadow-2xl w-full max-w-xs lg:max-w-xl px-6 py-6 mt-20">
                         <h1 className="font-bold text-2xl">Valor Total: {totalPrices.toLocaleString('pt-br', {
                             style: 'currency',
                             currency: 'BRL'
